@@ -5,11 +5,14 @@
   box-sizing: border-box;
 }
 html{
-  font-family: 'Verdana', sans-serif;
+  font-family: 'calibri', sans-serif;
   font-size: 100%;
 }
 body{
-  background-color: #7c93ad
+  background-image: url(./images/background.gif);
+  display: flex;
+  width: auto;
+  height: auto;
 }
 img{
   width: 100%;
@@ -25,13 +28,13 @@ section{
   margin: 100px 0;
 }
 .container{
-  background-color: #fff;
+  background-color: lightgrey;
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
   box-shadow: 0px 0px 61px 7px #5e849c40;
   padding: 50px 20px;
-  border-radius: 24px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -63,7 +66,7 @@ input{
 input::placeholder{
   opacity: .5;
   color: #2c2f46;
-  font-family: 'Montserrat';
+  font-family: 'Verdana', sans-serif;
 }
 form ion-icon{
   position: absolute;
@@ -75,22 +78,22 @@ form ion-icon{
 .gallery{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) ;
   margin-top: 25px;
   grid-gap: 20px;
-  border-radius: 24px;
+  border-radius: 20px;
 }
 .item{
   width: 100%;
   height: 90%;
   position: relative;
   overflow: hidden;
-  border-radius:8px;
+  border-radius: 20px;
   transition: .3s ease box-shadow;
 }
 
 .item:hover{
-  box-shadow: 0px 0px 20px 3px #00000042;
+  box-shadow: 0px 0px 20px 3px #7c93ad;
 }
 .item:nth-last-child(1){
   margin-bottom: 0;
@@ -99,8 +102,8 @@ form ion-icon{
   width: 100%;
   padding: 20px;
   position: absolute;
-  background-color: #2c2f46;
-  color: azure;
+  background-color: azure;
+  color: #2c2f46;
   bottom: -70px;
   font-weight: 300;
   transition: .5s ease-in-out bottom;
@@ -108,23 +111,12 @@ form ion-icon{
 .item:hover h3{
   bottom: 0;
 }
-.item h3{
-  width: 100%;
-  padding: 20px;
-  position: absolute;
-  background-color: #2c2f46;
-  color: azure;
-  bottom: -70px;
-  font-weight: 300;
-  transition: .5s ease-in-out bottom;
-}
 .load-more{
   display: inline-block;
   margin-top:30px;
   padding: 20px 50px;
   background-color: #2c2f46;
   text-decoration: none;
-  text-transform: uppercase;
   color: azure;
   font-weight: 500;
   cursor: pointer;
