@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 html{
-  font-family: 'calibri', sans-serif;
+  font-family: monospace;
   font-size: 100%;
 }
 body{
@@ -66,7 +65,7 @@ input{
 input::placeholder{
   opacity: .5;
   color: #2c2f46;
-  font-family: 'Verdana', sans-serif;
+  font-family: monospace;
 }
 form ion-icon{
   position: absolute;
@@ -117,6 +116,7 @@ form ion-icon{
   padding: 20px 50px;
   background-color: #2c2f46;
   text-decoration: none;
+  font-size: large;
   color: azure;
   font-weight: 500;
   cursor: pointer;
