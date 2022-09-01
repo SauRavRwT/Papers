@@ -31,7 +31,7 @@ class Papers {
     const baseURL = `https://api.pexels.com/v1/curated?page=${index}&per_page=12`;
     const data = await this.fetchImages(baseURL);
     this.GenerateHTML(data.photos)
-    console.log(data)
+    //console.log(data)
   }
   async fetchImages(baseURL) {
     const response = await fetch(baseURL, {
@@ -51,11 +51,11 @@ class Papers {
       item.classList.add('item');
       item.innerHTML = `
       <a href='${photo.src.original}' data-lightbox="mygallary" data-title="${photo.photographer}">
-        <img src="${photo.src.large}">
+        <img title="${photo.photographer}" src="${photo.src.large}">
         <h3>${photo.photographer}</h3>
       </a>
-      <a href='${photo.src.original}' target="_blank" dowload="pexelimg">
-        <img class="photo-download_info" src="./images/download.png">
+      <a title="${photo.photographer}" href='${photo.src.original}' target="_blank" dowload="pexelimg">
+        <img title="${photo.photographer}" class="photo-download_info" src="./images/download.png">
       </a>
       `;
       this.galleryDIv.appendChild(item)
