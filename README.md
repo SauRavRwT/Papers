@@ -1,14 +1,15 @@
-<details align="center">
-<summary><h4 align='center'>Papers</h4><br></summary>
+<h2 align='center'>Papers</h2>
   <samp>
-    <p>Papers WebApp uses Pexel api have all the features that are essential to be a wallpapers website.</p>
+    <p align="center">Papers WebApp uses Pexel api have all the features that are essential to be a wallpapers website.</p>
     <img src="https://raw.githubusercontent.com/SauRavRwT/Papers/main/images/papers-1.png" width="50%" height="50%"><img src="https://raw.githubusercontent.com/SauRavRwT/Papers/main/images/papers-2.png" width="50%" height="50%">
   </samp>
 
 <details align="center">
-<summary><h4 align='center'>Screenshots</h4><br></summary>
+<summary></summary>
+<h2 align='center'>Screenshots</h2>
   <samp>
     <img src="https://raw.githubusercontent.com/SauRavRwT/Papers/main/images/papers-3.png" width="50%" height="50%">
     <img src="https://raw.githubusercontent.com/SauRavRwT/Papers/main/images/papers-4.png" width="50%" height="50%"><img src="https://raw.githubusercontent.com/SauRavRwT/Papers/main/images/papers-5.png" width="50%" height="50%">
+    <img src="https://raw.githubusercontent.com/SauRavRwT/Saurav.in/main/images/papers-6.png" width="50%" height="50%"><img src="https://raw.githubusercontent.com/SauRavRwT/Saurav.in/main/images/papers-7.png" width="50%" height="50%">
   </samp>
 </details>
