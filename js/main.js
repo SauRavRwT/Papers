@@ -1,6 +1,6 @@
 class Papers {
     constructor() {
-        this.API_KEY = '563492ad6f917000010000015f532079745045e6a142bbab439bbf3d';
+        this.API_KEY = 'ndFZWMqcwlbe4uaEQAjp48nuA7t17Agu18kaGyieUpXK5UIDUEqsGVvl';
         this.galleryDIv = document.querySelector('.gallery');
         this.searchForm = document.querySelector('.header form');
         this.loadMore = document.querySelector('.load-more');
